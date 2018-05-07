@@ -65,7 +65,8 @@ int main(int argc, char *argv[])
         return EXIT_FAILURE;
     }
 
-    // If set on the command line, variables are now set at this point
+    // If set on the command line, variables are now set at this point. If the
+	// variable was set, print it's value to the command line.
     if (length)
     {
         std::cout << "Length: " << length << "\n";
